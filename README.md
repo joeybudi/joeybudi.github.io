@@ -1,2 +1,2 @@
 # joeybudi.github.io
-my personal blog
+Personal website of Joey Budi: https://joeybudi.github.io
