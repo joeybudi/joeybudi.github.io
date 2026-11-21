@@ -62,7 +62,6 @@ code {
   display: block;
   max-height: 40px;
   width: auto;
-  border-radius: 50%;
 }
 
 .nav-links {
@@ -318,4 +317,31 @@ code {
   .article-content a {
     box-shadow: none;
   }
+}
+
+.project-note {
+  color: #777;
+  font-size: 15px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.project-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.project-list li a {
+  font-weight: bold;
+}
+
+.project-list li span {
+  display: block;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
 }

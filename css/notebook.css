@@ -1,0 +1,121 @@
+/* Notebook-style project pages */
+
+.content-wide {
+  max-width: 860px;
+}
+
+.nb-meta {
+  color: #777;
+  font-size: 14px;
+  margin: 8px 0 28px;
+}
+
+.nb-md table {
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.nb-md th,
+.nb-md td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 4px 12px 4px 0;
+  text-align: left;
+}
+
+.nb-md blockquote {
+  margin: 16px 0;
+  padding: 10px 16px;
+  background: #f6f8f3;
+  border-left: 3px solid #4c8c2b;
+  font-size: 15px;
+}
+
+.nb-md blockquote p {
+  margin: 0;
+}
+
+.nb-cell {
+  margin: 18px 0 26px;
+}
+
+.nb-in .hl {
+  margin: 0;
+  background: #f7f7f5;
+  border: 1px solid #ececea;
+  border-left: 3px solid #4c8c2b;
+  border-radius: 4px;
+}
+
+.nb-in pre {
+  margin: 0;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.nb-in details summary {
+  cursor: pointer;
+  font-size: 14px;
+  color: #4c8c2b;
+  padding: 4px 0 8px;
+}
+
+.nb-out {
+  margin-top: 8px;
+  padding-left: 14px;
+  border-left: 3px solid #e2e2e2;
+}
+
+.nb-text {
+  margin: 0 0 8px;
+  padding: 4px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow-x: auto;
+  color: #444;
+  background: none;
+}
+
+.nb-table {
+  overflow-x: auto;
+  margin-bottom: 8px;
+}
+
+.nb-table table.dataframe {
+  border-collapse: collapse;
+  font-size: 12.5px;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+
+.nb-table table.dataframe th,
+.nb-table table.dataframe td {
+  padding: 4px 10px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.nb-table table.dataframe thead th {
+  border-bottom: 1px solid #bbb;
+}
+
+.nb-table table.dataframe tbody tr:hover {
+  background: #f6f8f3;
+}
+
+.nb-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 6px 0 10px;
+}
+
+@media (max-width: 600px) {
+  .nb-out {
+    padding-left: 8px;
+  }
+}
